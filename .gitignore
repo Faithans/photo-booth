@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# output / generated（合成輸出的照片）
+output/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# log
+*.log
+npm-debug.log*
